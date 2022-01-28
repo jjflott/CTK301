@@ -1,0 +1,54 @@
+/* CSS */
+p {
+ color: #2E559D;
+ background-color: #F2F0A0;
+}
+
+ul {
+ color: #2E559D;
+ background-color: #F2F0A0;
+}
+
+h1 {
+ color: #986942;
+ background-color: #F2F0A0;
+}
+
+h2 {
+ color: #986942;
+ background-color: #F2F0A0;
+}
+
+h3 {
+ color: #986942;
+ background-color: #F2F0A0;
+}
+
+h4 {
+ color: #986942;
+ background-color: #F2F0A0;
+}
+
+a:link {
+ color: #FF0000;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+.spanstyle {
+  color: #0081C6;
+}
+
+.specialp {
+ color: #880BEE;
+}
+
+#specialid {
+ color: #EE0B40;
+}
