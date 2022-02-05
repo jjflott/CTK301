@@ -1,0 +1,82 @@
+/* CSS */
+p {
+ color: #2E559D;
+ background-color: #F2F0A0;
+}
+
+ul {
+ color: #2E559D;
+ background-color: #F2F0A0;
+}
+
+h1 {
+ color: orange;
+ background-color: #F2F0A0;
+}
+
+h2 {
+ color: orange;
+ background-color: #F2F0A0;
+}
+
+h3 {
+ color: orange;
+ background-color: #F2F0A0;
+}
+
+h4 {
+ color: orange;
+ background-color: #F2F0A0;
+}
+
+a:link {
+ color: #FF0000;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+.spanstyle {
+  color: #0081C6;
+}
+
+.specialp {
+ color: #880BEE;
+}
+
+#specialid {
+ color: #EE0B40;
+}
+
+.customtext {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.fontcombined{
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: normal
+}
+
+.textcenter {
+text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+}
+
+.imgbox {
+border: 12.5px solid #000000;
+padding: 6.5px;
+background-color: #FFFFFF;
+}
+
+body {
+  background-image: url(backgroundimage.jpeg);
+}
