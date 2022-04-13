@@ -5,6 +5,12 @@
 	<title>Jessicas Site</title>
 	<link href="JessicasSite.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://use.typekit.net/imr7nax.css">
+
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+	<link
+	  rel="stylesheet"
+	  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
 </head>
 <body>
 	<div id="wrapper">
@@ -17,29 +23,29 @@
 	<nav>
 		<ul>
 		<li><a class="otherfont" href="JessicasSite1.html">Home</a></li>
-		<li><a class="otherfont" href="JessicasSite2.html">Video</a></li>
+		<li><a class="otherfont" href="JessicasSite2.html">Images</a></li>
 		<li><a class="otherfont" href="JessicasSite3.html">Music</a></li>
 	  </ul>
 	</nav>
 	<main>
-		<article>
-		<h2 class="backfont">Latest Video</h2>
-		<div class="backcolor">
-			<video width="440" height="260" controls loop preload="auto" >
-		  <source src="IMG_8677.mp4" type="video/mp4" />
-		</video>
-   </div>
-  </article>
-	<article>
-		<h2 class="backfont">All Videos</h2>
-		<div class="backcolor">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis bibendum efficitur. Sed sed lacinia ligula, vitae vehicula enim. Fusce ut iaculis diam, sit amet rutrum diam. Fusce bibendum vel tortor vehicula consequat. Donec dapibus nunc velit, a condimentum magna ornare ac. .</p>
-			</div>
-		</article>
+
+
+
+		<div id="myCarousel" class="carousel">
+		  <div class="carousel__slide"><img src="sky1.jpeg"></div>
+		  <div class="carousel__slide"><img src="sky2.jpeg"></div>
+		  <div class="carousel__slide"><img src="sky3.jpeg"></div>
+		</div>
+
+
 	</main>
 	<footer>
 		<p class="footerfont roundedbox dropshadowbox">Thanks for visiting!</p>
 	</footer>
 	</div>
+	<script>
+  const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+   });
+  </script>
 </body>
 </html>
